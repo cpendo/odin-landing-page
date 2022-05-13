@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+}
+.hero{
+    background-color: #1f2937;
+    padding-left: 200px;
+}
+.flex-container{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.flex-container .logo{
+    padding-right: 500px;
+    font-size: 24px;
+    color: #f9faf8;
+}
+.flex-container .one{
+    flex: 1;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-right: 50px;
+}
+.container{
+    display:flex;
+    padding-bottom: 30px;
+}
+.container img{
+    height: 250px;
+    width: 400px;
+} 
+.container p{
+    width: 400px;
+    padding-right: 150px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.container span{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+.container button{
+    margin-top: 20px;
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 6px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 15px;
+}
